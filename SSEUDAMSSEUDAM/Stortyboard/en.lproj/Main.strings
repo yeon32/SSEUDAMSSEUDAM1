@@ -1,0 +1,99 @@
+
+/* Class = "UILabel"; text = "00:00:00"; ObjectID = "11V-zk-My7"; */
+"11V-zk-My7.text" = "00:00:00";
+
+/* Class = "UITabBarItem"; title = "홈"; ObjectID = "46x-9a-eoF"; */
+"46x-9a-eoF.title" = "홈";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "5W2-Qk-HxY"; */
+"5W2-Qk-HxY.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7Z8-7l-MXG"; */
+"7Z8-7l-MXG.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Ady-k8-VDj"; */
+"Ady-k8-VDj.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Gr4-q0-918"; */
+"Gr4-q0-918.text" = "Label";
+
+/* Class = "UILabel"; text = "time"; ObjectID = "I9T-Wq-gtp"; */
+"I9T-Wq-gtp.text" = "time";
+
+/* Class = "UILabel"; text = "1:00:23"; ObjectID = "IaV-LJ-GhH"; */
+"IaV-LJ-GhH.text" = "1:00:23";
+
+/* Class = "UILabel"; text = "이름"; ObjectID = "K6N-jR-lfO"; */
+"K6N-jR-lfO.text" = "이름";
+
+/* Class = "UILabel"; text = "오늘의 날씨 알려주기"; ObjectID = "LTZ-D2-JFx"; */
+"LTZ-D2-JFx.text" = "오늘의 날씨 알려주기";
+
+/* Class = "UILabel"; text = "0.0km"; ObjectID = "QQU-xL-jmD"; */
+"QQU-xL-jmD.text" = "0.0km";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "Rrw-sM-4Ie"; */
+"Rrw-sM-4Ie.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "현재위치"; ObjectID = "UjS-HT-MfN"; */
+"UjS-HT-MfN.text" = "현재위치";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "VFX-b6-DIh"; */
+"VFX-b6-DIh.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "로그아웃"; ObjectID = "YhX-1K-N0o"; */
+"YhX-1K-N0o.normalTitle" = "로그아웃";
+
+/* Class = "UILabel"; text = "사진을 추가해주세요."; ObjectID = "ZEZ-gM-9QX"; */
+"ZEZ-gM-9QX.text" = "사진을 추가해주세요.";
+
+/* Class = "UITabBarItem"; title = "플로깅"; ObjectID = "agH-fk-6s2"; */
+"agH-fk-6s2.title" = "플로깅";
+
+/* Class = "UILabel"; text = "사진을 추가해주세요."; ObjectID = "d5q-ji-fgd"; */
+"d5q-ji-fgd.text" = "사진을 추가해주세요.";
+
+/* Class = "UILabel"; text = "Memo"; ObjectID = "dWE-Nd-9HZ"; */
+"dWE-Nd-9HZ.text" = "Memo";
+
+/* Class = "UIButton"; configuration.title = "save"; ObjectID = "e0j-se-4ur"; */
+"e0j-se-4ur.configuration.title" = "save";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "e0j-se-4ur"; */
+"e0j-se-4ur.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "date"; ObjectID = "e3i-bF-uc1"; */
+"e3i-bF-uc1.text" = "date";
+
+/* Class = "UILabel"; text = "최고"; ObjectID = "eBn-nY-bgF"; */
+"eBn-nY-bgF.text" = "최고";
+
+/* Class = "UIButton"; configuration.title = "등록 완료"; ObjectID = "eFl-UQ-PIP"; */
+"eFl-UQ-PIP.configuration.title" = "등록 완료";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "eFl-UQ-PIP"; */
+"eFl-UQ-PIP.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "11.25km"; ObjectID = "hMf-Hk-R82"; */
+"hMf-Hk-R82.text" = "11.25km";
+
+/* Class = "UITabBarItem"; title = "기록"; ObjectID = "jDb-tE-dGJ"; */
+"jDb-tE-dGJ.title" = "기록";
+
+/* Class = "UILabel"; text = "distance"; ObjectID = "jQb-EF-2kb"; */
+"jQb-EF-2kb.text" = "distance";
+
+/* Class = "UITextField"; placeholder = "타입"; ObjectID = "jhq-Mh-pNo"; */
+"jhq-Mh-pNo.placeholder" = "타입";
+
+/* Class = "UILabel"; text = "현재온도"; ObjectID = "mFj-EI-FGr"; */
+"mFj-EI-FGr.text" = "현재온도";
+
+/* Class = "UITextView"; text = "Memo is Memo"; ObjectID = "ncr-5X-hFW"; */
+"ncr-5X-hFW.text" = "Memo is Memo";
+
+/* Class = "UILabel"; text = "상태"; ObjectID = "p8G-q8-280"; */
+"p8G-q8-280.text" = "상태";
+
+/* Class = "UILabel"; text = "최저"; ObjectID = "qAA-R8-Jsf"; */
+"qAA-R8-Jsf.text" = "최저";

@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		339318C353771060832A15D7 /* Pods_SSEUDAMSSEUDAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B9F389CB2F8BAEDD9249A2 /* Pods_SSEUDAMSSEUDAM.framework */; };
+		7C210B8629100B6E008A158E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C637B1429097F0D00F73EC9 /* Main.storyboard */; };
 		7C637B0F29097F0D00F73EC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B0E29097F0D00F73EC9 /* AppDelegate.swift */; };
 		7C637B1129097F0D00F73EC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B1029097F0D00F73EC9 /* SceneDelegate.swift */; };
 		7C637B1329097F0D00F73EC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B1229097F0D00F73EC9 /* ViewController.swift */; };
-		7C637B1629097F0D00F73EC9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C637B1429097F0D00F73EC9 /* Main.storyboard */; };
 		7C637B1829097F0E00F73EC9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C637B1729097F0E00F73EC9 /* Assets.xcassets */; };
 		7C637B1B29097F0E00F73EC9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C637B1929097F0E00F73EC9 /* LaunchScreen.storyboard */; };
+		7C637B2629097FB300F73EC9 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B2529097FB300F73EC9 /* UserInfoViewController.swift */; };
+		7C637B2829097FC800F73EC9 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B2729097FC800F73EC9 /* HomeViewController.swift */; };
+		7C637B2A29097FD700F73EC9 /* mainData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B2929097FD700F73EC9 /* mainData.swift */; };
+		7C637B2C2909854A00F73EC9 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B2B2909854A00F73EC9 /* TabBarController.swift */; };
+		7C637B302909947000F73EC9 /* CustomSideMenuNavigation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B2F2909947000F73EC9 /* CustomSideMenuNavigation.swift */; };
+		7C637B322909949B00F73EC9 /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B312909949B00F73EC9 /* SideMenuViewController.swift */; };
+		7C637B3429099B4D00F73EC9 /* weather.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B3329099B4D00F73EC9 /* weather.swift */; };
+		7C637B3629099B6700F73EC9 /* WeatherService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B3529099B6700F73EC9 /* WeatherService.swift */; };
+		7C637B3829099B8D00F73EC9 /* KeyList.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7C637B3729099B8D00F73EC9 /* KeyList.plist */; };
+		7C637B46290EB19F00F73EC9 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B45290EB19F00F73EC9 /* MapViewController.swift */; };
+		7C637B48290EED1A00F73EC9 /* RunMode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B47290EED1A00F73EC9 /* RunMode.swift */; };
+		7C637B4A290EF69500F73EC9 /* RecordsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B49290EF69500F73EC9 /* RecordsViewController.swift */; };
+		7C637B4C290EF6B200F73EC9 /* RecordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B4B290EF6B200F73EC9 /* RecordDetailViewController.swift */; };
+		7C637B4E290EF6D600F73EC9 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B4D290EF6D600F73EC9 /* RecordTableViewCell.swift */; };
+		7C637B50290EF6F400F73EC9 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B4F290EF6F400F73EC9 /* RealmModel.swift */; };
+		7C637B52290EFED000F73EC9 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B51290EFED000F73EC9 /* ViewController+Extension.swift */; };
+		7C637B54290F027500F73EC9 /* MapKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B53290F027500F73EC9 /* MapKitExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0B0C76A197C9B20CB0297DF6 /* Pods-SSEUDAMSSEUDAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSEUDAMSSEUDAM.debug.xcconfig"; path = "Target Support Files/Pods-SSEUDAMSSEUDAM/Pods-SSEUDAMSSEUDAM.debug.xcconfig"; sourceTree = "<group>"; };
+		53A09627CC4F58B8C53DCA65 /* Pods-SSEUDAMSSEUDAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSEUDAMSSEUDAM.release.xcconfig"; path = "Target Support Files/Pods-SSEUDAMSSEUDAM/Pods-SSEUDAMSSEUDAM.release.xcconfig"; sourceTree = "<group>"; };
+		7C210B8529100B4C008A158E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
 		7C637B0B29097F0D00F73EC9 /* SSEUDAMSSEUDAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSEUDAMSSEUDAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C637B0E29097F0D00F73EC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C637B1029097F0D00F73EC9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +45,24 @@
 		7C637B1729097F0E00F73EC9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7C637B1A29097F0E00F73EC9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C637B1C29097F0E00F73EC9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7C637B2529097FB300F73EC9 /* UserInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
+		7C637B2729097FC800F73EC9 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		7C637B2929097FD700F73EC9 /* mainData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainData.swift; sourceTree = "<group>"; };
+		7C637B2B2909854A00F73EC9 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
+		7C637B2F2909947000F73EC9 /* CustomSideMenuNavigation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSideMenuNavigation.swift; sourceTree = "<group>"; };
+		7C637B312909949B00F73EC9 /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		7C637B3329099B4D00F73EC9 /* weather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weather.swift; sourceTree = "<group>"; };
+		7C637B3529099B6700F73EC9 /* WeatherService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeatherService.swift; sourceTree = "<group>"; };
+		7C637B3729099B8D00F73EC9 /* KeyList.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = KeyList.plist; sourceTree = "<group>"; };
+		7C637B45290EB19F00F73EC9 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		7C637B47290EED1A00F73EC9 /* RunMode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunMode.swift; sourceTree = "<group>"; };
+		7C637B49290EF69500F73EC9 /* RecordsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordsViewController.swift; sourceTree = "<group>"; };
+		7C637B4B290EF6B200F73EC9 /* RecordDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDetailViewController.swift; sourceTree = "<group>"; };
+		7C637B4D290EF6D600F73EC9 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
+		7C637B4F290EF6F400F73EC9 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
+		7C637B51290EFED000F73EC9 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
+		7C637B53290F027500F73EC9 /* MapKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitExtensions.swift; sourceTree = "<group>"; };
+		98B9F389CB2F8BAEDD9249A2 /* Pods_SSEUDAMSSEUDAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSEUDAMSSEUDAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +70,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				339318C353771060832A15D7 /* Pods_SSEUDAMSSEUDAM.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1EE59CF6C0DEA4BCA0DB504D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				98B9F389CB2F8BAEDD9249A2 /* Pods_SSEUDAMSSEUDAM.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7C637B0229097F0D00F73EC9 = {
 			isa = PBXGroup;
 			children = (
 				7C637B0D29097F0D00F73EC9 /* SSEUDAMSSEUDAM */,
 				7C637B0C29097F0D00F73EC9 /* Products */,
+				C11C2202B8D2DE07C3C49DEB /* Pods */,
+				1EE59CF6C0DEA4BCA0DB504D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +106,65 @@
 		7C637B0D29097F0D00F73EC9 /* SSEUDAMSSEUDAM */ = {
 			isa = PBXGroup;
 			children = (
+				7C637B2429097F2E00F73EC9 /* ViewController */,
+				7C637B2329097F2500F73EC9 /* Stortyboard */,
+				7C637B2229097F1A00F73EC9 /* Data */,
 				7C637B0E29097F0D00F73EC9 /* AppDelegate.swift */,
 				7C637B1029097F0D00F73EC9 /* SceneDelegate.swift */,
-				7C637B1229097F0D00F73EC9 /* ViewController.swift */,
-				7C637B1429097F0D00F73EC9 /* Main.storyboard */,
 				7C637B1729097F0E00F73EC9 /* Assets.xcassets */,
 				7C637B1929097F0E00F73EC9 /* LaunchScreen.storyboard */,
 				7C637B1C29097F0E00F73EC9 /* Info.plist */,
 			);
 			path = SSEUDAMSSEUDAM;
+			sourceTree = "<group>";
+		};
+		7C637B2229097F1A00F73EC9 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				7C637B2929097FD700F73EC9 /* mainData.swift */,
+				7C637B3329099B4D00F73EC9 /* weather.swift */,
+				7C637B3529099B6700F73EC9 /* WeatherService.swift */,
+				7C637B3729099B8D00F73EC9 /* KeyList.plist */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		7C637B2329097F2500F73EC9 /* Stortyboard */ = {
+			isa = PBXGroup;
+			children = (
+				7C637B1429097F0D00F73EC9 /* Main.storyboard */,
+			);
+			path = Stortyboard;
+			sourceTree = "<group>";
+		};
+		7C637B2429097F2E00F73EC9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7C637B1229097F0D00F73EC9 /* ViewController.swift */,
+				7C637B2529097FB300F73EC9 /* UserInfoViewController.swift */,
+				7C637B2729097FC800F73EC9 /* HomeViewController.swift */,
+				7C637B2B2909854A00F73EC9 /* TabBarController.swift */,
+				7C637B2F2909947000F73EC9 /* CustomSideMenuNavigation.swift */,
+				7C637B312909949B00F73EC9 /* SideMenuViewController.swift */,
+				7C637B45290EB19F00F73EC9 /* MapViewController.swift */,
+				7C637B47290EED1A00F73EC9 /* RunMode.swift */,
+				7C637B49290EF69500F73EC9 /* RecordsViewController.swift */,
+				7C637B4B290EF6B200F73EC9 /* RecordDetailViewController.swift */,
+				7C637B4D290EF6D600F73EC9 /* RecordTableViewCell.swift */,
+				7C637B4F290EF6F400F73EC9 /* RealmModel.swift */,
+				7C637B51290EFED000F73EC9 /* ViewController+Extension.swift */,
+				7C637B53290F027500F73EC9 /* MapKitExtensions.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C11C2202B8D2DE07C3C49DEB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B0C76A197C9B20CB0297DF6 /* Pods-SSEUDAMSSEUDAM.debug.xcconfig */,
+				53A09627CC4F58B8C53DCA65 /* Pods-SSEUDAMSSEUDAM.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +174,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7C637B1F29097F0E00F73EC9 /* Build configuration list for PBXNativeTarget "SSEUDAMSSEUDAM" */;
 			buildPhases = (
+				76ECE5F77BAD849158FB8224 /* [CP] Check Pods Manifest.lock */,
 				7C637B0729097F0D00F73EC9 /* Sources */,
 				7C637B0829097F0D00F73EC9 /* Frameworks */,
 				7C637B0929097F0D00F73EC9 /* Resources */,
+				451968824802534F2FCC89A2 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -125,22 +227,81 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C637B3829099B8D00F73EC9 /* KeyList.plist in Resources */,
 				7C637B1B29097F0E00F73EC9 /* LaunchScreen.storyboard in Resources */,
 				7C637B1829097F0E00F73EC9 /* Assets.xcassets in Resources */,
-				7C637B1629097F0D00F73EC9 /* Main.storyboard in Resources */,
+				7C210B8629100B6E008A158E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		451968824802534F2FCC89A2 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSEUDAMSSEUDAM/Pods-SSEUDAMSSEUDAM-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SSEUDAMSSEUDAM/Pods-SSEUDAMSSEUDAM-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SSEUDAMSSEUDAM/Pods-SSEUDAMSSEUDAM-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76ECE5F77BAD849158FB8224 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SSEUDAMSSEUDAM-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		7C637B0729097F0D00F73EC9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C637B3429099B4D00F73EC9 /* weather.swift in Sources */,
+				7C637B4A290EF69500F73EC9 /* RecordsViewController.swift in Sources */,
+				7C637B2A29097FD700F73EC9 /* mainData.swift in Sources */,
+				7C637B2829097FC800F73EC9 /* HomeViewController.swift in Sources */,
 				7C637B1329097F0D00F73EC9 /* ViewController.swift in Sources */,
+				7C637B3629099B6700F73EC9 /* WeatherService.swift in Sources */,
+				7C637B4E290EF6D600F73EC9 /* RecordTableViewCell.swift in Sources */,
+				7C637B2629097FB300F73EC9 /* UserInfoViewController.swift in Sources */,
+				7C637B2C2909854A00F73EC9 /* TabBarController.swift in Sources */,
+				7C637B46290EB19F00F73EC9 /* MapViewController.swift in Sources */,
 				7C637B0F29097F0D00F73EC9 /* AppDelegate.swift in Sources */,
 				7C637B1129097F0D00F73EC9 /* SceneDelegate.swift in Sources */,
+				7C637B50290EF6F400F73EC9 /* RealmModel.swift in Sources */,
+				7C637B54290F027500F73EC9 /* MapKitExtensions.swift in Sources */,
+				7C637B322909949B00F73EC9 /* SideMenuViewController.swift in Sources */,
+				7C637B52290EFED000F73EC9 /* ViewController+Extension.swift in Sources */,
+				7C637B4C290EF6B200F73EC9 /* RecordDetailViewController.swift in Sources */,
+				7C637B48290EED1A00F73EC9 /* RunMode.swift in Sources */,
+				7C637B302909947000F73EC9 /* CustomSideMenuNavigation.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +312,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				7C637B1529097F0D00F73EC9 /* Base */,
+				7C210B8529100B4C008A158E /* en */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -282,6 +444,7 @@
 		};
 		7C637B2029097F0E00F73EC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0B0C76A197C9B20CB0297DF6 /* Pods-SSEUDAMSSEUDAM.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -290,6 +453,8 @@
 				DEVELOPMENT_TEAM = Q732628BGB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SSEUDAMSSEUDAM/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "지도 권한 필요";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "지도 권한 필요";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -310,6 +475,7 @@
 		};
 		7C637B2129097F0E00F73EC9 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 53A09627CC4F58B8C53DCA65 /* Pods-SSEUDAMSSEUDAM.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -318,6 +484,8 @@
 				DEVELOPMENT_TEAM = Q732628BGB;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SSEUDAMSSEUDAM/Info.plist;
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "지도 권한 필요";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "지도 권한 필요";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
