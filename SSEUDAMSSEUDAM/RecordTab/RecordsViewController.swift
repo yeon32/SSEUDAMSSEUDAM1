@@ -13,7 +13,7 @@ class RecordsViewController: UIViewController , UISearchBarDelegate, UITableView
     @IBOutlet var tableView: UITableView!
     @IBOutlet weak var searchBar: UISearchBar!
     
-    
+
     let localRealm = try! Realm()
     var task: Results<RecordObject>!
     var filteredTask: Results<RecordObject>! {
@@ -59,12 +59,15 @@ class RecordsViewController: UIViewController , UISearchBarDelegate, UITableView
     func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String) {
         
         self.searchBar.searchBarStyle = .minimal
+       
         
         filterContentForSearchText(searchText)
         print("this is searchText", searchText)
         self.tableView.reloadData()
     }
-
+    
+   
+  
     
     
     

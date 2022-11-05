@@ -4,6 +4,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="21505"/>
         <capability name="Map view configurations" minToolsVersion="14.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
@@ -175,9 +176,9 @@
                             <subviews>
                                 <searchBar contentMode="redraw" searchBarStyle="minimal" placeholder="작성하신 메모로 기록을 검색해보세요." translatesAutoresizingMaskIntoConstraints="NO" id="gyM-H3-3gx">
                                     <rect key="frame" x="0.0" y="0.0" width="390" height="44"/>
-                                    <color key="backgroundColor" red="0.37254902719999999" green="0.7607843876" blue="0.45490196350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
-                                    <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    <color key="tintColor" name="color_green"/>
+                                    <color key="barTintColor" name="color_green"/>
                                     <textInputTraits key="textInputTraits"/>
                                     <connections>
                                         <outlet property="delegate" destination="ajM-XK-C7g" id="hKK-J4-zMo"/>
@@ -209,7 +210,7 @@
                                         </imageView>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Date" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LIK-Yh-r7c">
                                             <rect key="frame" x="26" y="21" width="220" height="19"/>
-                                            <fontDescription key="fontDescription" type="system" weight="black" pointSize="15"/>
+                                            <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="15"/>
                                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                             <nil key="highlightedColor"/>
                                         </label>
@@ -243,7 +244,7 @@
                                         <constraint firstItem="2qW-mx-L7l" firstAttribute="trailing" secondItem="IHN-OS-9tK" secondAttribute="trailing" constant="-127.66666666666666" id="kPq-J2-hAF"/>
                                     </constraints>
                                 </tableViewCellContentView>
-                                <color key="backgroundColor" red="0.37254902719999999" green="0.7607843876" blue="0.45490196350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <connections>
                                     <outlet property="dateLabel" destination="LIK-Yh-r7c" id="fmK-Go-vqq"/>
                                     <outlet property="distanceLabel" destination="IHN-OS-9tK" id="2yB-1l-gcP"/>
@@ -281,7 +282,7 @@
                             </imageView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Memo is Memo" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="ncr-5X-hFW">
                                 <rect key="frame" x="28" y="631" width="334" height="100"/>
-                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="100" id="AZ9-fT-gor"/>
                                 </constraints>
@@ -292,24 +293,24 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Memo" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dWE-Nd-9HZ">
                                 <rect key="frame" x="28" y="592" width="63" height="30.666666666666629"/>
                                 <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="25"/>
-                                <color key="textColor" red="0.37254902719999999" green="0.7607843876" blue="0.45490196350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <color key="textColor" name="color_black"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11.25km" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hMf-Hk-R82">
                                 <rect key="frame" x="195" y="133" width="167" height="86"/>
                                 <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="45"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" verticalHuggingPriority="251" text="1:00:23" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IaV-LJ-GhH">
                                 <rect key="frame" x="28" y="133" width="166" height="86"/>
                                 <fontDescription key="fontDescription" name="Impact" family="Impact" pointSize="45"/>
-                                <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="02Q-1l-byX"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <color key="backgroundColor" name="color_green"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" relation="greaterThanOrEqual" secondItem="dWE-Nd-9HZ" secondAttribute="trailing" id="1Yw-K7-cv1"/>
                             <constraint firstItem="02Q-1l-byX" firstAttribute="bottom" secondItem="hMf-Hk-R82" secondAttribute="bottom" constant="591" id="1fZ-fb-7dR"/>
@@ -729,7 +730,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Start" width="200" height="103"/>
+        <image name="Start" width="302" height="115"/>
         <image name="folder" catalog="system" width="128" height="96"/>
         <image name="folder.fill" catalog="system" width="128" height="96"/>
         <image name="house" catalog="system" width="128" height="104"/>
@@ -742,6 +743,12 @@
         <image name="배경2" width="391" height="154"/>
         <image name="쓰담쓰담" width="286" height="308"/>
         <image name="카카오로그인" width="600" height="90"/>
+        <namedColor name="color_black">
+            <color red="0.21960783" green="0.21960783" blue="0.24313727020000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
+        <namedColor name="color_green">
+            <color red="0.37254902719999999" green="0.7607843876" blue="0.45490196350000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+        </namedColor>
         <systemColor name="labelColor">
             <color red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
