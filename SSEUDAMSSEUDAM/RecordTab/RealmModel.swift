@@ -12,6 +12,7 @@ class RecordObject: Object {
     @Persisted var memo: String
     @Persisted var stringDate: String
     
+    
 
     convenience init(image: Data, distance: CLLocationDistance, time: String, memo: String) {
         
@@ -25,5 +26,6 @@ class RecordObject: Object {
         self.time = time
         self.memo = memo
         self.stringDate = dateformatter.string(from: date)
+       
     }
 }
