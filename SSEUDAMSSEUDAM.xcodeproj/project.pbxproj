@@ -29,7 +29,6 @@
 		7C637B4C290EF6B200F73EC9 /* RecordDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B4B290EF6B200F73EC9 /* RecordDetailViewController.swift */; };
 		7C637B4E290EF6D600F73EC9 /* RecordTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B4D290EF6D600F73EC9 /* RecordTableViewCell.swift */; };
 		7C637B50290EF6F400F73EC9 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B4F290EF6F400F73EC9 /* RealmModel.swift */; };
-		7C637B52290EFED000F73EC9 /* ViewController+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B51290EFED000F73EC9 /* ViewController+Extension.swift */; };
 		7C637B54290F027500F73EC9 /* MapKitExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B53290F027500F73EC9 /* MapKitExtensions.swift */; };
 /* End PBXBuildFile section */
 
@@ -61,7 +60,6 @@
 		7C637B4B290EF6B200F73EC9 /* RecordDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordDetailViewController.swift; sourceTree = "<group>"; };
 		7C637B4D290EF6D600F73EC9 /* RecordTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordTableViewCell.swift; sourceTree = "<group>"; };
 		7C637B4F290EF6F400F73EC9 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
-		7C637B51290EFED000F73EC9 /* ViewController+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "ViewController+Extension.swift"; sourceTree = "<group>"; };
 		7C637B53290F027500F73EC9 /* MapKitExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapKitExtensions.swift; sourceTree = "<group>"; };
 		98B9F389CB2F8BAEDD9249A2 /* Pods_SSEUDAMSSEUDAM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SSEUDAMSSEUDAM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -129,7 +127,6 @@
 			isa = PBXGroup;
 			children = (
 				7C637B53290F027500F73EC9 /* MapKitExtensions.swift */,
-				7C637B51290EFED000F73EC9 /* ViewController+Extension.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -340,7 +337,6 @@
 				7C637B50290EF6F400F73EC9 /* RealmModel.swift in Sources */,
 				7C637B54290F027500F73EC9 /* MapKitExtensions.swift in Sources */,
 				7C637B322909949B00F73EC9 /* SideMenuViewController.swift in Sources */,
-				7C637B52290EFED000F73EC9 /* ViewController+Extension.swift in Sources */,
 				7C637B4C290EF6B200F73EC9 /* RecordDetailViewController.swift in Sources */,
 				7C637B48290EED1A00F73EC9 /* RunMode.swift in Sources */,
 				7C637B302909947000F73EC9 /* CustomSideMenuNavigation.swift in Sources */,
