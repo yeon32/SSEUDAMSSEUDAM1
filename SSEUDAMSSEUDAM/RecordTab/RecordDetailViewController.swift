@@ -84,7 +84,7 @@ class RecordDetailViewController: UIViewController {
             taskToUpdate?.memo = memoTextView.text
         }
         
-         let banner = NotificationBanner(title: "Well Saved!", subtitle: "Your memo is succesfully saved.", style: .success)
+         let banner = NotificationBanner(title: "Well Saved!", subtitle: "Your plogging is succesfully saved.", style: .success)
          banner.show()
     
     }
@@ -123,11 +123,6 @@ extension RecordDetailViewController : UIImagePickerControllerDelegate,UINavigat
         dismiss(animated: true, completion: nil)
       
     }
-
-//
-//    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
-//        dismiss(animated: true, completion: nil)
-//    }
     
 }
 
