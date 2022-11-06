@@ -32,10 +32,13 @@ class RecordDetailViewController: UIViewController {
 
         memoTextView.text = recordData.memo
         mapImageView.image = UIImage(data: recordData.image)
+        distanceLabel.text = String(Int(recordData.distance))
+        timeLabel.text = recordData.time
       
         memoTextView.layer.cornerRadius = 5
         memoTextView.layer.borderWidth = 3
         memoTextView.layer.borderColor = UIColor(hue: 0.9972, saturation: 0, brightness: 1, alpha: 1.0).cgColor
+        
         memoTextView.text = recordData.memo
     }
     
