@@ -23,6 +23,7 @@ class RecordsViewController: UIViewController , UISearchBarDelegate, UITableView
     }
     
     
+    
     // MARK: - LifeCycle
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -68,10 +69,6 @@ class RecordsViewController: UIViewController , UISearchBarDelegate, UITableView
     
    
   
-    
-    
-    
-    
   
     func numberOfSections(in tableView: UITableView) -> Int {
             return 1
@@ -102,8 +99,6 @@ class RecordsViewController: UIViewController , UISearchBarDelegate, UITableView
         }
     
     
-    
-    // MARK: - Function (TableView)
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             

@@ -39,6 +39,7 @@ class MapViewController : UIViewController {
 
     
     // MARK: - LifeCycle
+    
         override func viewDidLoad() {
             super.viewDidLoad()
             let currentLocation: CLLocationCoordinate2D = CLLocationCoordinate2D(latitude: locationManager.location?.coordinate.latitude ?? 0, longitude: locationManager.location?.coordinate.longitude ?? 0)
@@ -48,6 +49,12 @@ class MapViewController : UIViewController {
             setNotifications()
             setMotionManager()
         }
+    
+    
+    
+    
+    
+    // MARK: - Function
     
     func setMotionManager() {
         motionManager.startActivityUpdates(to: .main) { activity in
@@ -62,6 +69,7 @@ class MapViewController : UIViewController {
             }
         }
     }
+    
     
     //지도 나타내기
     func setMap(currentLocation: CLLocationCoordinate2D) {
@@ -118,6 +126,7 @@ class MapViewController : UIViewController {
         }
     }
     
+    
     @objc func addbackGroundTime(_ notification:Notification) {
         if runMode == .running {
             let time = notification.userInfo?["time"] as? Int ?? 0
@@ -129,9 +138,11 @@ class MapViewController : UIViewController {
         }
     }
     
+    
     @objc func stopTimer() {
         timer.invalidate()
     }
+    
     
     func setNotifications() {
         NotificationCenter.default.addObserver(self, selector: #selector(addbackGroundTime(_:)), name: NSNotification.Name("sceneWillEnterForeground"), object: nil)
@@ -255,6 +266,8 @@ class MapViewController : UIViewController {
     
     
     
+    
+    
     // MARK: - IBAction
     
     @IBAction func runButtonClicked(_ sender: UIButton) {
@@ -346,6 +359,12 @@ extension MapViewController: MKMapViewDelegate {
         return renderer
     }
 }
+
+
+
+
+    // MARK: - Delegate, DataSource
+
 
 extension MapViewController: CLLocationManagerDelegate {
     func locationManager(_ manager: CLLocationManager, didUpdateLocations locations: [CLLocation]) {

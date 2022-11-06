@@ -6,8 +6,11 @@ import KakaoSDKUser
 
 class ViewController: UIViewController {
 
+    // MARK: -Properties
     
     @IBOutlet weak var kakaoLoginBtn: UIButton!
+    
+    
     
     
     // MARK: - LifeCycle
@@ -16,6 +19,9 @@ class ViewController: UIViewController {
       
     }
     
+    
+    
+    // MARK: - IBAction
     
     @IBAction func didTapLoginBtn(_ sender: Any) {
         

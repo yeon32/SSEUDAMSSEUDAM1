@@ -10,10 +10,11 @@ import UIKit
 
 class userMainData {
     static let shared = userMainData()
-    //var walkMealArray = Array<WalkMeal>()
+    
     var userName : String?
     var profileImage : UIImage?
     var userType : String?
+    var ploggingImage : UIImage?
    
     var loginUser : String?
     var walkTimer : String?

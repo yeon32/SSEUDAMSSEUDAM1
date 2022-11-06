@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		339318C353771060832A15D7 /* Pods_SSEUDAMSSEUDAM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 98B9F389CB2F8BAEDD9249A2 /* Pods_SSEUDAMSSEUDAM.framework */; };
 		7C210B8629100B6E008A158E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C637B1429097F0D00F73EC9 /* Main.storyboard */; };
-		7C46EE1029178210005453DC /* RecordPictureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C46EE0F29178210005453DC /* RecordPictureViewController.swift */; };
 		7C637B0F29097F0D00F73EC9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B0E29097F0D00F73EC9 /* AppDelegate.swift */; };
 		7C637B1129097F0D00F73EC9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B1029097F0D00F73EC9 /* SceneDelegate.swift */; };
 		7C637B1329097F0D00F73EC9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C637B1229097F0D00F73EC9 /* ViewController.swift */; };
@@ -37,7 +36,6 @@
 		0B0C76A197C9B20CB0297DF6 /* Pods-SSEUDAMSSEUDAM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSEUDAMSSEUDAM.debug.xcconfig"; path = "Target Support Files/Pods-SSEUDAMSSEUDAM/Pods-SSEUDAMSSEUDAM.debug.xcconfig"; sourceTree = "<group>"; };
 		53A09627CC4F58B8C53DCA65 /* Pods-SSEUDAMSSEUDAM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SSEUDAMSSEUDAM.release.xcconfig"; path = "Target Support Files/Pods-SSEUDAMSSEUDAM/Pods-SSEUDAMSSEUDAM.release.xcconfig"; sourceTree = "<group>"; };
 		7C210B8529100B4C008A158E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Main.strings; sourceTree = "<group>"; };
-		7C46EE0F29178210005453DC /* RecordPictureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecordPictureViewController.swift; sourceTree = "<group>"; };
 		7C633B2F2912CBAB003F3F83 /* DINCondensed-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "DINCondensed-Bold.ttf"; path = "../../Rife-main/Rife - Simple Run Life/DINCondensed-Bold.ttf"; sourceTree = "<group>"; };
 		7C637B0B29097F0D00F73EC9 /* SSEUDAMSSEUDAM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSEUDAMSSEUDAM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C637B0E29097F0D00F73EC9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -113,7 +111,6 @@
 				7C637B4D290EF6D600F73EC9 /* RecordTableViewCell.swift */,
 				7C637B4F290EF6F400F73EC9 /* RealmModel.swift */,
 				7C637B49290EF69500F73EC9 /* RecordsViewController.swift */,
-				7C46EE0F29178210005453DC /* RecordPictureViewController.swift */,
 			);
 			path = RecordTab;
 			sourceTree = "<group>";
@@ -331,7 +328,6 @@
 				7C637B2829097FC800F73EC9 /* HomeViewController.swift in Sources */,
 				7C637B1329097F0D00F73EC9 /* ViewController.swift in Sources */,
 				7C637B3629099B6700F73EC9 /* WeatherService.swift in Sources */,
-				7C46EE1029178210005453DC /* RecordPictureViewController.swift in Sources */,
 				7C637B4E290EF6D600F73EC9 /* RecordTableViewCell.swift in Sources */,
 				7C637B2629097FB300F73EC9 /* UserInfoViewController.swift in Sources */,
 				7C637B2C2909854A00F73EC9 /* TabBarController.swift in Sources */,

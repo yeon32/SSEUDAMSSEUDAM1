@@ -47,6 +47,8 @@ class HomeViewController: UIViewController {
     
     
     // MARK: - LifeCycle
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
@@ -61,6 +63,9 @@ class HomeViewController: UIViewController {
         weatherInfo(city: "Seoul")
         
     }
+    
+    
+    // MARK: - Function
     
     func weatherInfo(city:String) {
         WeatherService.shared.getWeatherData(cityName: city){ result in
