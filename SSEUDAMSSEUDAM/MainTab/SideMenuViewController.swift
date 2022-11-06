@@ -24,9 +24,7 @@ class SideMenuViewController : UIViewController {
     // MARK: - Function
     func setData() {
         profileImageView.image = userMainData.shared.profileImage
-        
         userNameLabel.text = userMainData.shared.userName
-        
         userTypeLabel.text = userMainData.shared.userType
         
         // 이미지 동그랗게
